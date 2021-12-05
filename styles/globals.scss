@@ -1,0 +1,103 @@
+@import "~bulma/bulma";
+
+@font-face {
+  font-family: "Baloo 2 Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Baloo2-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Baloo 2 Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Baloo2-Bold.woff") format("woff");
+}
+
+.navbar-link:not(.is-arrowless)::after {
+  border-color: white;
+}
+
+.baloo {
+  font-family: "Baloo 2 Regular";
+  font-weight: normal;
+}
+
+strong.baloo {
+  font-family: "Baloo 2 Bold";
+  font-weight: bold;
+
+}
+.white {
+  color: white;
+}
+
+.white.dropdown-item:hover {
+  color: black;
+}
+
+a.button {
+  text-decoration: none;
+}
+a.nounderline {
+  text-decoration: none;
+}
+
+.content h* {
+  color: white;
+}
+
+.bodybg {
+  color: white;
+  background-color: #222;
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+}
+.introText {
+  padding-top: 2em;
+}
+.introText {
+  vertical-align: middle;
+  text-align: center;
+  justify-content: center;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+
+.home-button {
+  margin-left: 5px;
+  width: 250px;
+}
+
+.fade {
+  display: hidden;
+}
+
+.text-n {
+  text-align: center;
+}
+
+.itemthing img {
+  cursor: pointer;
+}
+
+.centerit {
+  justify-content: center;
+  text-align: center;
+}
+
+.leftit {
+  justify-content: left;
+  text-align: left;
+}
+
+.btnSpaceLeft {
+  margin-left: 20px;
+}
